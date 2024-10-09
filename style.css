@@ -8,8 +8,11 @@
 
 body{
     padding: 2rem;
-    background-color: #E8F1F2;
+    background:linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url("Bg-tic-tac-toe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
+    height: 100vh;
 }
 
 .container {
