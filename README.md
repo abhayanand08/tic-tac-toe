@@ -12,7 +12,7 @@ This project is a simple implementation of the classic Tic Tac Toe game, develop
 1. Open your terminal/command prompt.
 2. Clone the repository by the following code.
 ```bash
-git clone https://github.com/abhayanand08/project.git
+git clone https://github.com/abhayanand08/tic-tac-toe.git
 ```
 
 ## Contributing
