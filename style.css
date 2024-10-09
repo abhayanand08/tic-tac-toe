@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    padding: 2rem;
+    background-color: #E8F1F2;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin-bottom: 80px;
+}
+h1{
+    color: #000;
+    font-weight: bold;
+    font-family: "Lexend", sans-serif;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vmin;
+    height: 60vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+    margin-top: 40px;
+}
+.boxes{
+    background-color: #7A9E7E;
+    height: 15vmin;
+    width: 15vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 13px 7px 19px 1px rgba(0,0,0,0.75);
+    color: #001A23;
+    font-size: 8vmin;
+    font-weight: bolder;
+}
+
+.reset-btn{
+    padding: 8px 30px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
